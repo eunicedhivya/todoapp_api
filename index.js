@@ -10,6 +10,10 @@ connection();
 app.use(express.json());
 app.use(cors());
 
+app.get("/", (request, response) => {
+  response.send("Todo APP API");
+});
+
 app.use("/tasks", tasks);
 
 app.listen(process.env.PORT, () =>
