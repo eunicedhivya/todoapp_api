@@ -21,18 +21,6 @@ router.get("/", async (request, response) => {
   }
 });
 
-router.put("/:id", async (request, response) => {
-  try {
-    const task = await Task.findOneAndUpdate(
-      { _id: request.params.id },
-      request.body
-    );
-    response.send(task);
-  } catch (error) {
-    response.send(error);
-  }
-});
-
 router.delete("/:id", async (request, response) => {
   try {
     const task = await Task.findByIdAndDelete(request.params.id);
