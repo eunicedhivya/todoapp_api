@@ -1,5 +1,5 @@
 {
-  "name": "exercise_tracke_api",
+  "name": "todoapp_api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eunicedhivya/exercise_tracker.git"
+    "url": "git+https://github.com/eunicedhivya/todoapp_api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eunicedhivya/exercise_tracker/issues"
+    "url": "https://github.com/eunicedhivya/todoapp_api/issues"
   },
-  "homepage": "https://github.com/eunicedhivya/exercise_tracker#readme",
+  "homepage": "https://github.com/eunicedhivya/todoapp_api#readme",
   "dependencies": {
     "bootstrap": "^5.1.3",
     "cors": "^2.8.5",
